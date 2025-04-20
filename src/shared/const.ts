@@ -4,7 +4,8 @@ export const Constant = {
     copyRight: "© Copyright 2024. Hive Private Limited",
     dayPass: "Day Pass",
     downloadYourAppNow: "Download our app now",
+    hostYour: "Host your meeting with world-class amenities. Starting at ₹199/-!",
     oneLinearDetail: "One linear detail about the feature",
     ourSpaceOverView: "Our Space Overview",
-    hostYour: "Host your meeting with world-class amenities. Starting at ₹199/-!"
+    twentyPercentDiscount: "20% Discount"
 }

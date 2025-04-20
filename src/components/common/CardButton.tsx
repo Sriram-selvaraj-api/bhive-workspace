@@ -6,9 +6,9 @@ import { Constant } from '../../shared/const'
 
 type CardButtonType = {
     dayPassPrice: number
-}   
+}
 
-const CardButton = ({dayPassPrice}: CardButtonType ) => {
+const CardButton = ({ dayPassPrice }: CardButtonType) => {
     return (
         <Grid container className={Styles.cardContentContainer} spacing={1}>
             <Grid size={{ xs: 6 }}>
@@ -23,15 +23,20 @@ const CardButton = ({dayPassPrice}: CardButtonType ) => {
                 </button>
             </Grid>
             <Grid size={{ xs: 6 }}>
-                <button className={Styles.bulkPassButton}>
-                    <div className={Styles.buttonDetails}>
-                        <span className={Styles.dayPass}>{Constant.bulkPass}</span>
-                        <span className={Styles.dayPassValue}> ₹ 2400 <span className={Styles.daysCount}>/10 Days</span></span>
+                <div className={Styles.bulkPassContainer}>
+                    <div className={Styles.discountBadge}>
+                        {Constant.twentyPercentDiscount}
                     </div>
-                    <div>
-                        <img src={ICON.Arrow} alt={'procced'} width={24} />
-                    </div>
-                </button>
+                    <button className={Styles.bulkPassButton}>
+                        <div className={Styles.buttonDetails}>
+                            <span className={Styles.dayPass}>{Constant.bulkPass}</span>
+                            <span className={Styles.dayPassValue}> ₹ 2400 <span className={Styles.daysCount}>/10 Days</span></span>
+                        </div>
+                        <div>
+                            <img src={ICON.Arrow} alt={'procced'} width={24} />
+                        </div>
+                    </button>
+                </div>
             </Grid>
         </Grid>
     )
