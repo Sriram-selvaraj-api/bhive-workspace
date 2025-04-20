@@ -1,0 +1,17 @@
+.iconButton {
+    border: 1px solid #F2B304;
+    border-radius: 4px;
+    background: transparent;
+    cursor: pointer;
+    padding: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.toolbar{
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    z-index: 2;
+}
+

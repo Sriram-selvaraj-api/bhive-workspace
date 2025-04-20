@@ -1,0 +1,22 @@
+.footerBox {
+    background-color: #222E34;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: static;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.copyRightText {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+  
+@media (max-width: 600px) {
+    .copyRightText {
+      font-size: 12px;
+    }
+}

@@ -1,0 +1,20 @@
+.sectionHeader {
+    font-size: 36px;
+    font-weight: 700;
+    color: #263238;
+}
+
+.bodyDiv{
+  margin: 0 10vw;
+  text-align: left;
+}
+  
+@media (max-width: 900px) {
+    .sectionHeader {
+      font-size: 24px;
+    }
+    .bodyDiv{
+      margin: 0 20px;
+    }
+}
+

@@ -1,0 +1,63 @@
+.dayPassButton{
+    background-color: #F9F9F9;
+    border: 0.5px solid #EEE7E7;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .bulkPassButton{
+    background-color: #FFC422;
+    border: 1px solid #FFC422;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .dayPassValue{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #263238;
+    margin-top: 8px;
+  }
+  
+  .buttonDetails{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  .daysCount{
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+  }
+  
+  .cardContentContainer{
+    padding: 0;
+  }
+  
+  .dayPass{
+    font-family: 'Inter', sans-serif;
+    color: #65624C;
+    font-size: 14px;
+  }
+
+@media (max-width: 900px) {
+  .bulkPassButton{
+    padding: 8px;
+  }
+  .dayPassButton{
+    padding: 8px;
+  }
+  .dayPassValue{
+    font-size: 18px;
+  }
+}
