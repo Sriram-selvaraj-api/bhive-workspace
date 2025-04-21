@@ -44,7 +44,7 @@ const SpacesList: React.FC = () => {
     }, []);
     
 
-    if (loading) return <p><span className={Styles.loader}></span></p>;
+    if (loading) return <p className={Styles.loaderHead}><span className={Styles.loader}></span></p>;
 
     return (
         <Grid container className={Styles.spaceOverviewContainer}>

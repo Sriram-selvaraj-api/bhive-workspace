@@ -39,6 +39,12 @@
     animation: rotation 1s linear infinite;
 }
 
+.loaderHead{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
 .navigationItem{
     display: flex;
     justify-content: flex-end;
